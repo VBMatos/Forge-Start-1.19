@@ -25,7 +25,6 @@ public class StartMod {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event){
-
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -33,7 +32,6 @@ public class StartMod {
 
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event){
-
         }
     }
 }
