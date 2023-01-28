@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "startmod:ruby_block",
+    "startmod:citrine_block",
+    "startmod:sapphire_block"
+  ]
+}
