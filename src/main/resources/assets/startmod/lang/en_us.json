@@ -1,3 +1,9 @@
 {
-  "item.startmod.ruby": "Ruby"
+  "item.startmod.ruby": "Ruby",
+  "item.startmod.sapphire": "Sapphire",
+  "item.startmod.citrine": "Citrine",
+
+  "block.startmod.ruby_block": "Block of Ruby",
+  "block.startmod.sapphire_block": "Block of Sapphire",
+  "block.startmod.citrine_block": "Block of Citrine"
 }
