@@ -38,9 +38,13 @@ public class StartMod {
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if(event.getTab() == ModCreativeModeTab.START_TAB) {
+            event.accept(ModItems.REFINED_EMERALD);
             event.accept(ModItems.RUBY);
+            event.accept(ModItems.REFINED_RUBY);
             event.accept(ModItems.SAPPHIRE);
+            event.accept(ModItems.REFINED_SAPPHIRE);
             event.accept(ModItems.CITRINE);
+            event.accept(ModItems.REFINED_CITRINE);
 
             event.accept(ModBlocks.RUBY_BLOCK);
             event.accept(ModBlocks.SAPPHIRE_BLOCK);

@@ -1,7 +1,11 @@
 {
+  "item.startmod.refined_emerald": "Refined Emerald",
   "item.startmod.ruby": "Ruby",
+  "item.startmod.refined_ruby": "Refined Ruby",
   "item.startmod.sapphire": "Sapphire",
+  "item.startmod.refined_sapphire": "Refined Sapphire",
   "item.startmod.citrine": "Citrine",
+  "item.startmod.refined_citrine": "Refined Citrine",
 
   "block.startmod.ruby_block": "Block of Ruby",
   "block.startmod.sapphire_block": "Block of Sapphire",

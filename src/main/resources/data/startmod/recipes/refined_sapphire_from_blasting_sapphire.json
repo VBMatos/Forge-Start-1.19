@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "refined_sapphire",
+  "ingredient": {
+    "item":"startmod:sapphire"
+  },
+  "result": "startmod:refined_sapphire"
+}
