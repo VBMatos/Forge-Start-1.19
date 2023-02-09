@@ -11,5 +11,7 @@
 
   "block.startmod.ruby_block": "Block of Ruby",
   "block.startmod.sapphire_block": "Block of Sapphire",
-  "block.startmod.citrine_block": "Block of Citrine"
+  "block.startmod.citrine_block": "Block of Citrine",
+
+  "block.startmod.booster_block": "Booster Block"
 }

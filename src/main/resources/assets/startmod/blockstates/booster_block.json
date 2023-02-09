@@ -1,0 +1,7 @@
+{
+    "variants": {
+      "": {
+        "model":"startmod:block/booster_block"
+      }
+    }
+}

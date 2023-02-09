@@ -51,6 +51,8 @@ public class StartMod {
             event.accept(ModBlocks.RUBY_BLOCK);
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
             event.accept(ModBlocks.CITRINE_BLOCK);
+
+            event.accept(ModBlocks.BOOSTER_BLOCK);
         }
     }
 
