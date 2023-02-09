@@ -46,6 +46,8 @@ public class StartMod {
             event.accept(ModItems.CITRINE);
             event.accept(ModItems.REFINED_CITRINE);
 
+            event.accept(ModItems.DICE);
+
             event.accept(ModBlocks.RUBY_BLOCK);
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
             event.accept(ModBlocks.CITRINE_BLOCK);

@@ -6,6 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.vbm.startmod.StartMod;
+import net.vbm.startmod.item.custom.DiceItem;
 
 public class ModItems {
 
@@ -18,6 +19,8 @@ public class ModItems {
     public static final RegistryObject<Item> REFINED_SAPPHIRE = ITEMS.register("refined_sapphire", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> CITRINE = ITEMS.register("citrine", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> REFINED_CITRINE = ITEMS.register("refined_citrine", () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> DICE = ITEMS.register("dice", () -> new DiceItem(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
