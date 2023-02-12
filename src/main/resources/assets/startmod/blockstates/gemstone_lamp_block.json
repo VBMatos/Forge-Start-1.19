@@ -1,0 +1,6 @@
+{
+    "variants": {
+      "lit=true": { "model":"startmod:block/gemstone_lamp_on_block" },
+      "lit=false": { "model":"startmod:block/gemstone_lamp_off_block" }
+    }
+}

@@ -53,6 +53,7 @@ public class StartMod {
             event.accept(ModBlocks.CITRINE_BLOCK);
 
             event.accept(ModBlocks.BOOSTER_BLOCK);
+            event.accept(ModBlocks.GEMSTONE_LAMP_BLOCK);
         }
     }
 
