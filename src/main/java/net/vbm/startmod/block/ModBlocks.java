@@ -35,7 +35,7 @@ public class ModBlocks {
             () -> new BoosterBlock(BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_GRAY).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
 
     public static final RegistryObject<Block> GEMSTONE_LAMP_BLOCK = registerBlock("gemstone_lamp_block",
-            () -> new GemstoneLampBlock(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.GOLD).requiresCorrectToolForDrops()
+            () -> new GemstoneLampBlock(BlockBehaviour.Properties.of(Material.BUILDABLE_GLASS, MaterialColor.GOLD).requiresCorrectToolForDrops()
                     .lightLevel(state -> state.getValue(GemstoneLampBlock.LIT) ? 15 : 0).strength(5.0F, 6.0F).sound(SoundType.GLASS)));
 
     public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
