@@ -3,6 +3,7 @@
   "values": [
     "startmod:ruby_block",
     "startmod:citrine_block",
-    "startmod:sapphire_block"
+    "startmod:sapphire_block",
+    "startmod:gemstone_lamp_block"
   ]
 }

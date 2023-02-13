@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:redstone_lamp" },
+    { "item": "startmod:ruby" },
+    { "item": "startmod:citrine" },
+    { "item": "startmod:sapphire" },
+    { "item": "minecraft:emerald" }
+  ],
+  "result": {
+    "item": "startmod:gemstone_lamp_block"
+  }
+}
